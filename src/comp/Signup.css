@@ -1,0 +1,113 @@
+.signup-main{
+    text-align: left;
+    /* background-color:#682EC8; */
+    background-color: #280B70;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.signup-main2{
+    width:40rem;
+    /* background-color: #BB6DCC; */
+    background-color: #7400d3;
+    margin:auto;
+    color:white;
+    padding:2rem;
+    border-radius:1rem;
+}
+.signup-div1-txt{
+    color:black;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-left:1rem;
+    cursor:pointer;
+}
+.signup-div2{
+    /* border:red solid 1px; */
+    display:inline-block;
+    width:100%;
+    margin-top:2rem;
+}
+.signup-div2 input{
+    width:25rem;
+    padding:1rem;
+    margin-left:5rem;
+    border-radius:0.5rem;
+    background-color: transparent;
+    border:white 1px solid;
+}
+.signup-div3{
+    margin:auto;
+    margin-top:3rem;
+    width:100%;
+    text-align: center;
+}
+.signup-div3 button{
+    background-color:rgba(16, 40, 104, 1);
+    padding:1rem 2rem;
+    color:white;
+    border:none;
+    font-size: 20px;
+    margin:auto;
+    border-radius:1rem;
+    cursor:pointer;
+}
+.signup-div4{
+    text-align: center;
+    margin-top:2rem;
+}
+.signup-div4 h2{
+    text-decoration:overline;
+}
+.signup-div4-btn{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+}
+.signup-div4 button{
+    padding:1rem;
+    border:none;
+    border-radius:1rem;
+    margin-top:1rem;
+    cursor:pointer;
+    font-size: 30px;
+    background-color: #102868;
+    color:white;
+}
+
+.forgot-pass-txt{
+    text-decoration:underline;
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    cursor:pointer;
+}
+
+@media screen and (max-width:800px){
+    .signup-main2{
+        width:80%;
+    }
+    .signup-div2 input{
+        width:80%;
+        padding:1rem;
+        margin-left:0rem;
+    }
+}
+@media screen and (max-width:450px){
+    .signup-main2{
+        width:70%;
+    }
+    .signup-div1{
+        font-size: 14px;
+    }
+    .signup-div1-resp-txt1{
+        font-size: 20px;
+    }
+    .signup-div1-resp-txt2{
+        font-size: 16px;
+    }
+    .signup-div4 button{
+        padding:0.5rem;
+        border-radius:0.5rem;
+        font-size: 22px;
+    }
+}
